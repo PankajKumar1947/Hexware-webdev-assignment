@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex flex-col md:flex-row justify-between items-center mx-2 md:mx-8 font-[700]'>
+    <div className='flex flex-col md:flex-row justify-between items-center px-2 md:px-8 font-[700]'>
       <div className='flex justify-between items-center w-full md:w-auto'>
         <div className='flex items-center gap-5 text-[#292355] text-[16px]'>
           <h1>Track your order</h1>
