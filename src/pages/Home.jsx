@@ -29,8 +29,11 @@ const Home = () => {
     }
   ]
   return (
-    <div className='max-w-[1440px] mx-auto pt-2'>
-        <Navbar/>
+    <div className='max-w-[1440px] mx-auto pt-2 relative'>
+        <div className='fixed top-0  w-full bg-white z-20'>
+          <Navbar/>
+        </div>
+        
         <div className='flex flex-col md:flex-row justify-between mt-5'>
           <div className='w-[100%] md:w-[60%] '>
             <HeroLeft/>
