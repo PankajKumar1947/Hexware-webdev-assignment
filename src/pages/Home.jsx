@@ -30,7 +30,7 @@ const Home = () => {
   ]
   return (
     <div className='max-w-[1440px] mx-auto pt-2 relative'>
-        <div className='fixed top-0  w-full bg-white z-20'>
+        <div className='fixed top-0  w-[99vw] bg-white z-20'>
           <Navbar/>
         </div>
         
