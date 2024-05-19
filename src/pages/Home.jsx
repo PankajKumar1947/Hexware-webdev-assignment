@@ -34,7 +34,7 @@ const Home = () => {
           <Navbar/>
         </div>
         
-        <div className='flex flex-col md:flex-row justify-between mt-5'>
+        <div className='flex flex-col md:flex-row justify-between mt-10'>
           <div className='w-[100%] md:w-[60%] '>
             <HeroLeft/>
             <div className='flex justify-center flex-wrap gap-2 items-start m-1 md:m-5'>
