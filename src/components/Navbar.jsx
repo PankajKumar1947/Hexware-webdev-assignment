@@ -22,8 +22,10 @@ const Navbar = () => {
           {isMobileMenuOpen ? <IoClose /> : <GiHamburgerMenu />}
         </button>
       </div>
+      <div className='flex justify-center ml-32'>
+        <img src={logo1} alt="logo image" className='hidden md:block '/>
+      </div>
       <ul className={`absolute top-9 md:top-0 bg-white md:relative  w-full md:w-auto z-10 flex-col md:flex-row md:flex justify-between items-center gap-3 pb-3 md:pb-0  text-[#818181] text-[17.49px] ${isMobileMenuOpen ? 'flex' : 'hidden'} md:flex`}>
-        <li><img src={logo1} alt="logo image" className='hidden md:block'/></li>
         <li className='text-[#527442]'>Home</li>
         <li className='cursor-pointer hover:text-black'>Service</li>
         <li className='cursor-pointer hover:text-black'>About Us</li>
